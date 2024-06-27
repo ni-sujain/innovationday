@@ -1,0 +1,17 @@
+[project]
+labview-version = 2024
+vipc = ""
+
+[nipm]
+
+[nipm.dependencies]
+ni-daqmx = { version = "24.0.0.49420-0+f268", feed = "ni-daqmx-2024 Q1-released" }
+ni-daqmx-labview-support = { version = "24.0.0.49421-0+f269", feed = "ni-daqmx-2024 Q1-released" }
+
+[nipm.feeds]
+"ni-daqmx-2024 Q1-released" = "https://download.ni.com/support/nipkg/products/ni-d/ni-daqmx/24.0/released"
+
+[vipm]
+
+[vipm.dependencies]
+step_at_lib_logbook_toolkit = "4.2.0.69"
