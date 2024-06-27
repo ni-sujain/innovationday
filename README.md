@@ -16,7 +16,7 @@ about the example VI:
 - Main VI opens two references to ContinuousVoltageAcq.vi, activates the FP and runs call by ref on both the references(example of Open VI ref accepting a VI ref).
 - ContinuousVoltageAcq.vi is just a simple DAQ acq task. It configures the channel, clock etc and acquires signals and plots them in a graph. I have add some custom dummy logging in a while loop. The logging library(logo book toolkit) is from VIPM.
 - This also has two browse for Path methods(example of invoking browse for pth dialog while running the VI) for selecting log folder paths. By default they are off. Turn on this with given boolen button.
-- the .dragon file is an example of package dependency stuff. It will mention the dependency on VIPM package as well as ni-daqmx
+- the .dragon file is an example of package dependency stuff. It will mention the dependency on VIPM package(step_at_lib_logbook_toolkit) as well as NIPM package(ni-daqmx)
 
 
 
