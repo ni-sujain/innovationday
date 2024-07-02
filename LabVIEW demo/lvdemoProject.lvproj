@@ -12,6 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ContinuousVoltageAcq-new.vi" Type="VI" URL="../ContinuousVoltageAcq-new.vi"/>
 		<Item Name="ContinuousVoltageAcq.vi" Type="VI" URL="../ContinuousVoltageAcq.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
